@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>items</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <section class="nav">
+            <h1 class="name">Vikash kumar</h1>
+            <span class="input-box">
+                <input    type="text" placeholder="search items">
+                <button class="search"><span class="material-symbols-outlined">
+                        search
+                    </span></button>
+                <button class="login">Login</button></span>
+            <div class="card">
+                <a href="#">Become a seller</a>
+                <span>
+                    <span class="material-symbols-outlined">
+                        shopping_cart
+                    </span>
+                    <a href="#">card</a></span>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="image">
+                <img  src="./img/green-tshirt.jpg" id="myImg" alt="t-shirt">
+
+            </div>
+            <div class="content">
+                <h1>Developer Half Sleeve Unisex T-Shirt</h1>
+                <div class="price">
+                    <span>&#8377;499</span>
+                    <span class="old-price">&#8377;799</span>
+                </div>
+
+                <p class="size-chart">Size Chart</p>
+                <div class="size-img"> <img src="./img/Half-Sleeve-scaled.jpg" alt="">
+
+                </div>
+                <div class="para">
+                    <ul>
+                        <li>
+                            <span> Material/ Fabric: </span>100% Cotton, Bio-Wash
+                        </li>
+                        <li>
+                            <span>Size & Fit: </span>This brand runs true to size. To ensure the best fit, we suggest
+                            consulting the size chart.
+                        </li>
+                        <li>
+                            <span>Wash: </span>Don’t use Soap or Detergent directly on print.
+                        </li>
+                    </ul>
+                </div>
+                <div class="color-box">
+                    <p>Color</p>
+                    <div class="color active" data-src="green">
+                        <div class="border-color color-green"></div>
+                    </div>
+                    <div class="color " data-src="gray">
+                        <div class="border-color color-gray"></div>
+                    </div>
+                    <div class="color" data-src="black">
+                        <div class="border-color color-black"></div>
+                    </div>
+                    <div class="color" data-src="navy">
+                        <div class="border-color color-navy "></div>
+                    </div>
+                </div>
+                <div class="size-box">
+                    <p>SIZE</p>
+
+                    <span class="size active">S</span>
+                    <span class="size">M</span>
+                    <span class="size">L</span>
+                    <span class="size" >XL</span>
+                    <span class="size" id="xxl">XXL</span>
+                    <span class="size ">XXXL</span>
+                </div>
+                <div class="btns">
+                    <button class="card-btn">ADD TO CART</button>
+                    <button class="card-btn">BUY NOW</button>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+    <!-- Elevate Zoom js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/2.2.3/jquery.elevatezoom.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
